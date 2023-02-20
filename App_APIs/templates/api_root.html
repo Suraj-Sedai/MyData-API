@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>API Root</title>
+  </head>
+  <body>
+    <h1>API Root</h1>
+    <ul>
+      {% for key, value in data.items %}
+        <li><a href="{{ value }}">{{ key }}</a></li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
